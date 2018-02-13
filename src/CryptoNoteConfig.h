@@ -36,7 +36,7 @@ const size_t   CRYPTONOTE_COINBASE_BLOB_RESERVED_SIZE        = 600;
 const size_t   CRYPTONOTE_DISPLAY_DECIMAL_POINT              = 2;
 //TODO Define minimum fee for transactions
 const uint64_t MINIMUM_FEE                                   = 1;
-const uint64_t DEFAULT_DUST_THRESHOLD                        = MINIMUM_FEE * 100;
+const uint64_t DEFAULT_DUST_THRESHOLD                        = MINIMUM_FEE;
 
 //TODO Define preferred block's target time
 const uint64_t DIFFICULTY_TARGET                             = 120; // seconds
